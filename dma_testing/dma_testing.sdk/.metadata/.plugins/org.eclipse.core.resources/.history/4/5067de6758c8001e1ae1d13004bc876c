@@ -1,0 +1,38 @@
+/*
+ * dmaTest.c
+ *
+ *  Created on: 11-Feb-2024
+ *      Author: Sanchit Awasthi
+ */
+
+
+#include "xaxidma.h"
+#include "xparameters.h"
+#include "xil_types.h"
+#include "xil_printf.h"
+
+int main()
+{
+	XAxiDma_Config *myDMAConfig;
+
+	u32 a[]={1,2,3,4,5,6,7,8};
+	u32 status;
+
+	XAxiDma myDMA;
+	myDMAConfig = XAxiDma_LookupConfigBaseAddr(XPAR_AXI_DMA_0_BASEADDR);
+	status = XAxiDma_CfgInitialize(&myDMA, myDMAConfig);
+	if(status != XST_SUCCESS)
+		{
+			print("DMA initialised failed\n\r");
+			return -1;
+		}
+	print("DMA initialised success...\n\r");
+	status = XAxiDma_SimpleTransfer(&myDMA, (u32)a, sizeof(u32)*8, XAXIDMA_DMA_TO_DEVICE);
+
+	if(status != XST_SUCCESS)
+	{
+		print("DMA transfer failed\n\r");
+		return -1;
+	}
+	print("DMA transfer success...\n\r");
+}

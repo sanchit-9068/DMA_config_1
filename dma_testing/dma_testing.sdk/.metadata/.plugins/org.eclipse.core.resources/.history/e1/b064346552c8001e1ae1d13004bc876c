@@ -1,0 +1,25 @@
+/*
+ * dmaTest.c
+ *
+ *  Created on: 11-Feb-2024
+ *      Author: Sanchit Awasthi
+ */
+
+
+#include "xaxidma.h"
+#include "xparameters.h"
+#include "xil_types.h"
+
+
+int main()
+{
+	XAxiDma_Config *myDMAConfig;
+
+	u32 a[]={1,2,3,4,5,6,7,8};
+
+	XAxiDma myDMA;
+	myDMAConfig = XAxiDma_LookupConfigBaseAddr(XPAR_AXI_DMA_0_BASEADDR);
+	XAxiDma_CfgInitialize(&myDMA, myDMAConfig);
+
+	u32 XAxiDma_SimpleTransfer(&myDMA, a, u32 Length, int Direction);
+}

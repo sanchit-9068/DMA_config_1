@@ -1,0 +1,16 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Feb 11 00:19:01 2024
+| Host         : Sanchitslaptop running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_inverter_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_inverter_0_1 (xilinx.com:user:inverter:1.0) from (Rev. 5) to (Rev. 6)
+

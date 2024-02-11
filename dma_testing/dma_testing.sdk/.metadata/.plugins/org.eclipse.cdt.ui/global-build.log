@@ -1,0 +1,571 @@
+01:42:41 **** Build of project dma_testing_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_7/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_7/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling axidma"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project dma_testing ****
+
+Nothing to build for project dma_testing
+01:46:43 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../dma_testing_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+D:\Kishore_Sir_Project\dma_testing\dma_testing.sdk\dma_testing_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [dma_testing.elf] Error 1
+01:53:38 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+../src/dmaTest.c: In function 'main':
+../src/dmaTest.c:24:29: error: expected declaration specifiers or '...' before '&' token
+  u32 XAxiDma_SimpleTransfer(&myDMA, a, u32 Length, int Direction);
+                             ^
+../src/dmaTest.c:24:37: error: expected declaration specifiers or '...' before 'a'
+  u32 XAxiDma_SimpleTransfer(&myDMA, a, u32 Length, int Direction);
+                                     ^
+../src/dmaTest.c:18:6: warning: unused variable 'a' [-Wunused-variable]
+  u32 a[]={1,2,3,4,5,6,7,8};
+      ^
+make: *** [src/dmaTest.o] Error 1
+01:54:30 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+../src/dmaTest.c: In function 'main':
+../src/dmaTest.c:24:29: error: expected declaration specifiers or '...' before '&' token
+  u32 XAxiDma_SimpleTransfer(&myDMA, a, sizeof(u32)*8, XAXIDMA_DMA_TO_DEVICE);
+                             ^
+../src/dmaTest.c:24:37: error: expected declaration specifiers or '...' before 'a'
+  u32 XAxiDma_SimpleTransfer(&myDMA, a, sizeof(u32)*8, XAXIDMA_DMA_TO_DEVICE);
+                                     ^
+../src/dmaTest.c:24:40: error: expected declaration specifiers or '...' before 'sizeof'
+  u32 XAxiDma_SimpleTransfer(&myDMA, a, sizeof(u32)*8, XAXIDMA_DMA_TO_DEVICE);
+                                        ^~~~~~
+In file included from ../../dma_testing_bsp/ps7_cortexa9_0/include/xaxidma_bd.h:117:0,
+                 from ../../dma_testing_bsp/ps7_cortexa9_0/include/xaxidma_bdring.h:87,
+                 from ../../dma_testing_bsp/ps7_cortexa9_0/include/xaxidma.h:492,
+                 from ../src/dmaTest.c:9:
+../../dma_testing_bsp/ps7_cortexa9_0/include/xaxidma_hw.h:76:32: error: expected declaration specifiers or '...' before numeric constant
+ #define XAXIDMA_DMA_TO_DEVICE  0x00
+                                ^
+../src/dmaTest.c:24:55: note: in expansion of macro 'XAXIDMA_DMA_TO_DEVICE'
+  u32 XAxiDma_SimpleTransfer(&myDMA, a, sizeof(u32)*8, XAXIDMA_DMA_TO_DEVICE);
+                                                       ^~~~~~~~~~~~~~~~~~~~~
+../src/dmaTest.c:18:6: warning: unused variable 'a' [-Wunused-variable]
+  u32 a[]={1,2,3,4,5,6,7,8};
+      ^
+make: *** [src/dmaTest.o] Error 1
+01:54:58 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+../src/dmaTest.c: In function 'main':
+../src/dmaTest.c:24:33: warning: passing argument 2 of 'XAxiDma_SimpleTransfer' makes integer from pointer without a cast [-Wint-conversion]
+  XAxiDma_SimpleTransfer(&myDMA, a, sizeof(u32)*8, XAXIDMA_DMA_TO_DEVICE);
+                                 ^
+In file included from ../src/dmaTest.c:9:0:
+../../dma_testing_bsp/ps7_cortexa9_0/include/xaxidma.h:755:5: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'u32 * {aka long unsigned int *}'
+ u32 XAxiDma_SimpleTransfer(XAxiDma *InstancePtr, UINTPTR BuffAddr, u32 Length,
+     ^~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34348	   2256	  22632	  59236	   e764	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+01:55:06 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34348	   2256	  22632	  59236	   e764	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+01:57:48 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34580	   2256	  22632	  59468	   e84c	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:02:17 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:04:49 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:06:07 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:25:56 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:28:11 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34580	   2256	  22632	  59468	   e84c	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:28:14 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:28:34 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:29:12 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:29:57 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:30:28 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34588	   2256	  22632	  59476	   e854	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:30:44 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:37:32 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+../src/dmaTest.c: In function 'main':
+../src/dmaTest.c:42:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^~~~~
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34940	   2256	  22632	  59828	   e9b4	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:37:45 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34940	   2256	  22632	  59828	   e9b4	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:38:34 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:41:52 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35004	   2256	  22632	  59892	   e9f4	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:41:58 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:45:11 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34940	   2256	  22632	  59828	   e9b4	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:45:13 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:47:20 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:50:30 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34876	   2256	  22632	  59764	   e974	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:50:42 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:53:02 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34948	   2256	  22632	  59836	   e9bc	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:53:21 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:53:30 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:54:06 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:54:52 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34924	   2256	  22632	  59812	   e9a4	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:55:02 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:56:40 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34948	   2256	  22632	  59836	   e9bc	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:56:48 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+02:58:26 **** Auto Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dmaTest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_testing_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+'Finished building: ../src/dmaTest.c'
+' '
+'Building target: dma_testing.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dma_testing_bsp/ps7_cortexa9_0/lib -o "dma_testing.elf"  ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_testing.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_testing.elf  |tee "dma_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35012	   2256	  22632	  59900	   e9fc	dma_testing.elf
+'Finished building: dma_testing.elf.size'
+' '
+02:58:35 **** Incremental Build of configuration Debug for project dma_testing ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
